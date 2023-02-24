@@ -10,6 +10,6 @@
 3\) [определить, есть ли диабет у представителя индейцев племени Пима](https://github.com/mualal/ya-profi-preparation/blob/master/notebooks/pima-indians-diabetes-prediction-pure.ipynb) - задача классификации (есть диабет или нет)
 
  \
- Задания по ***робототехнике***.
+Задания по ***робототехнике***.
  
- Пример задания доступен по ссылке: [ДЕМОВЕРСИЯ](https://gitlab.com/beerlab/iprofi2023/demo)
+Пример заданий доступен по ссылке: [ДЕМОВЕРСИЯ](https://gitlab.com/beerlab/iprofi2023/demo), [РЕШЕНИЕ](https://gitlab.com/mualal/ya-profi-robotics-demo-master).
