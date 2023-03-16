@@ -13,9 +13,9 @@
 
 5\) [решить задачу о конверсии реагента в химическом реакторе](https://github.com/mualal/ya-profi-preparation/blob/master/notes/ode_solution_example1.ipynb) - решение обыкновенного дифференциального уравнения с помощью метода Эйлера;
 
-6\) [решить задачу вытекания жидкости из цистерны через отверстие в форме трапеции](https://github.com/mualal/ya-profi-preparation/blob/master/notes/ode_solution_example2.ipynb) - решение обыкновенного дифференциального уравнения с помощью метода Эйлера;
+6\) [решить задачу о вытекании жидкости из резервуара через отверстие в форме трапеции](https://github.com/mualal/ya-profi-preparation/blob/master/notes/ode_solution_example2.ipynb) - решение обыкновенного дифференциального уравнения с помощью метода Эйлера;
 
-7) [предсказать показатели экономики регионов](https://github.com/mualal/ya-profi-preparation/blob/master/notebooks/region-economics-prediction-pure.ipynb) - задача классификации и регрессии
+7\) [предсказать показатели экономики регионов](https://github.com/mualal/ya-profi-preparation/blob/master/notebooks/region-economics-prediction-pure.ipynb) - задача классификации и регрессии
 
  \
 Задания по ***робототехнике***.
