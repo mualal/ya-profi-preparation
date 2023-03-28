@@ -21,3 +21,11 @@
 Задания по ***робототехнике***.
  
 Пример заданий доступен по ссылке: [ДЕМОВЕРСИЯ](https://gitlab.com/beerlab/iprofi2023/demo), [РЕШЕНИЕ](https://gitlab.com/mualal/ya-profi-robotics-demo-master).
+
+Jupyter-тетради:
+
+1\) [детектирование объектов](https://github.com/mualal/ya-profi-preparation/blob/master/notebooks/object-detection/object-detection.ipynb);
+
+2\) [визуальная одометрия](https://github.com/mualal/ya-profi-preparation/blob/master/notebooks/visual-odometry/visual-odometry.ipynb);
+
+3\) [оценка глубины по монокулярной камере](https://github.com/mualal/ya-profi-preparation/blob/master/notebooks/mono-depth-estimation/mono-depth-estimation.ipynb)
