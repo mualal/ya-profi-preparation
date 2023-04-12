@@ -1,0 +1,93 @@
+% !TeX spellcheck = en_US
+% !TeX program = xelatex
+
+\documentclass[a4paper,12pt]{article}
+\renewcommand{\baselinestretch}{1.2}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A, T1]{fontenc}
+\usepackage[english, russian]{babel}
+
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{setspace, amsmath}
+\usepackage{amssymb}
+\usepackage{dsfont}
+\usepackage{epsfig}
+\usepackage{pdfpages}
+
+\makeatletter
+\let\@fnsymbol\@arabic
+\makeatother
+
+\usepackage{geometry}
+\geometry{
+a4paper,
+total={170mm, 257mm},
+left=20mm,
+top=20mm,
+}
+
+\usepackage{systeme}
+\usepackage{skak}
+\usepackage{mathtools}
+\usepackage{unicode-math}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{subfiles}
+\usepackage{hyperref}
+\hypersetup{pdfstartview=FitH, linkcolor=black, urlcolor=blue, colorlinks=true}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{color}
+\usepackage{chngcntr}
+\usepackage{tikz}
+\usepackage{csquotes}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{comment}
+\usepackage{adjustbox}
+\usepackage[breakable, skins]{tcolorbox}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{\hyperlink{page.1}{\textcolor{violet}{Вернуться к содержанию}}}
+%\fancyhead[L]{\leftmark \\ \rightmark}
+%\fancyhead[R]{\thepage}
+%\fancyhead[R]{\rightmark}
+\fancyfoot[C]{\thepage}
+%\fancyfoot[L]{\rightmark}
+
+\usepackage{float}
+\floatstyle{plaintop}
+\usepackage{enumitem}
+\setlength{\parindent}{0pt}
+%\setcounter{section}{-1}
+
+\graphicspath{{./img/}}
+\newcommand{\myPictWidth}{.95\textwidth}
+\newcommand{\phm}{\phantom{-}}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newenvironment{eclrun}
+{\VerbatimEnvironment
+\begin{tcolorbox}[breakable,boxrule=0.5pt,colframe=gray!50]
+\begin{Verbatim}
+}
+{
+\end{Verbatim}	
+\end{tcolorbox}
+}
+\begin{document}
+	\subfile{parts/general_info}
+	\tableofcontents
+	\title{Газовые гидраты\\Конспект лекций и семинаров}
+	\author{Муравцев А.А.\thanks{конспектирует; email: almuravcev@yandex.ru}
+	\and
+	Чиглинцева А.С.\thanks{лектор, доктор физико-математических наук, доцент, главный специалист отдела гидродинамических исследований скважин ООО "<РН-БашНИПИнефть">}}
+	\maketitle
+	\subfile{parts/intoduction}
+	
+\end{document}
