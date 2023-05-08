@@ -15,7 +15,13 @@
 
 6\) [решить задачу о вытекании жидкости из резервуара через отверстие в форме трапеции](https://github.com/mualal/ya-profi-preparation/blob/master/notes/ode_solution_example2.ipynb) - решение обыкновенного дифференциального уравнения с помощью метода Эйлера;
 
-7\) [предсказать показатели экономики регионов](https://github.com/mualal/ya-profi-preparation/blob/master/notebooks/region-economics-prediction-pure.ipynb) - задача классификации и регрессии
+7\) [предсказать показатели экономики регионов](https://github.com/mualal/ya-profi-preparation/blob/master/notebooks/region-economics-prediction-pure.ipynb) - задача классификации и регрессии;
+
+8\) [газовые гидраты в природе, системе добычи, транспортировки и хранения природного газа](https://github.com/mualal/ya-profi-preparation/blob/master/notes/clathrate-hydrates/main.pdf);
+
+9\) [моделирование роста газогидратного слоя](https://github.com/mualal/ya-profi-preparation/blob/master/notes/clathrate-hydrates-task/main.pdf);
+
+10\) [задача по социальному моделированию 2022-2023](https://github.com/mualal/ya-profi-preparation/blob/master/notes/social-modelling-task-2023/main.pdf)
 
  \
 Задания по ***робототехнике***.
